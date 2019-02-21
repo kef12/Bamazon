@@ -50,7 +50,7 @@ var connection = mysql.createConnection({
       {item_id: answer.item}, function(err, res){
         if (parseInt(answer.count) > res[0].stock_quantity) {
 
-          console.log("Sorry, there are only " + res[0].stock_quantity + " left. Please chose another item.");
+          console.log("Sorry, there are only " + res[0].stock_quantity + " left. Please chose another item or update your order.");
           pickProduct();
 
       }
