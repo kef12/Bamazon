@@ -1,2 +1,2 @@
 # Bamazon
-This is an Amazon-like application that uses Node and mySQL.
+This is an Amazon-like CLI application that uses Node and mySQL.
